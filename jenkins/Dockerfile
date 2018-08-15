@@ -1,1 +1,1 @@
-FROM jenkins:alpine
+FROM jenkinsci/blueocean:latest
