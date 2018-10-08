@@ -3,8 +3,7 @@
 version: '3.2'
 services:
   jenkins:
-    build:
-      context: jenkins/
+    build: .
     privileged: true
     user: root
     ports:
