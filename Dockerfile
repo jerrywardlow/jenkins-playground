@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkinsci/blueocean
 
 COPY ./plugins.txt /usr/share/jenkins/ref/plugins.txt
 
